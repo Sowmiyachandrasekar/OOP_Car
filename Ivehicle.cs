@@ -1,7 +1,7 @@
 using System;
 public interface IVehicle
 {
-    string VehicleStart();
-    string VehicleAccelerate();
-    string VehicleStop();
+    string Start();
+    string Accelerate();
+    string Stop();
 }

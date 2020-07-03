@@ -1,15 +1,15 @@
 using System;
 public class Car : IVehicle
 {
-    public string VehicleStart()
+    public string Start()
     {
         return string.Format("---Vehicle is Started---");
     }
-    public string VehicleAccelerate()
+    public string Accelerate()
     {
         return string.Format("---Vehicle is moving---");
     }
-    public string VehicleStop()
+    public string Stop()
     {
         return string.Format("---Vehicle is Stoped---");
     }
